@@ -18,13 +18,14 @@
 
 ## 服务器部署[推荐]
 0. 准备一台海外IP的云服务器，香港也可以
-1. git clone https://github.com/tech-shrimp/grok-playground
+1. git clone https://github.com/moshouhot/grok-playground  
 2. (Ubuntu服务器需要先安装unzip:)<br> sudo apt-get install unzip -y
 3. 安装Deno:<br> curl -fsSL https://deno.land/install.sh | sh （安装后需重启shell）
 4. cd grok-playground
 5. sh deno_start.sh
-6. 默认使用服务器80端口，可以修改src/deno_index.ts改端口号
+6. 默认使用服务器7000端口，可以修改src/deno_index.ts改端口号
 7. 使用Cloudflare配置网站DNS+HTTPS（也可以自己配置HTTPS）
+8. 使用1panel设置https
 
 
 ## Netlify部署
